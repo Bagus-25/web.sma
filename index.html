@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi Kelulusan | SMAN 2 MOJOKERTO</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Aplikasi resmi pengecekan kelulusan siswa SMA Negeri 2 Mojokerto tahun ajaran 2025/2026.">
+    <meta name="keywords" content="Kelulusan, SMAN 2 Mojokerto, SMA, Pendidikan, Mojokerto">
+    <meta name="author" content="SMAN 2 Mojokerto">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sman2mojokerto.sch.id/">
+    <meta property="og:title" content="Sistem Informasi Kelulusan | SMAN 2 MOJOKERTO">
+    <meta property="og:description" content="Cek status kelulusan Anda di sini secara resmi.">
+    <meta property="og:image" content="sman2_mojokerto_logo_1778130553024.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Sistem Informasi Kelulusan | SMAN 2 MOJOKERTO">
+    <meta property="twitter:description" content="Cek status kelulusan Anda di sini secara resmi.">
+    <meta property="twitter:image" content="sman2_mojokerto_logo_1778130553024.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="sman2_favicon_1778134674917.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loader-content">
+            <img src="sman2_mojokerto_logo_1778130553024.png" alt="Logo" class="loader-logo">
+            <div class="loader-bar"></div>
+            <p>Memuat Sistem...</p>
+        </div>
+    </div>
+
+    <div id="app">
+        <!-- SLIDE 1: LOGIN -->
+        <section id="login-slide" class="slide active">
+            <div class="background-overlay"></div>
+            <div class="content">
+                <div class="login-card">
+                    <div class="school-logo-container">
+                        <img src="sman2_mojokerto_logo_1778130553024.png" alt="Logo SMAN 2" class="school-logo">
+                    </div>
+                    <h1>Sistem Informasi Kelulusan</h1>
+                    <p class="subtitle">SMAN 2 MOJOKERTO</p>
+                    
+                    <form id="login-form">
+                        <div class="input-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" placeholder="Masukkan Username" required autocomplete="off">
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Masukkan Password" required autocomplete="off">
+                        </div>
+                        <button type="submit" class="btn-login">Masuk</button>
+                    </form>
+                    <p id="error-msg" class="error-msg">Username atau Password salah!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: RESULT -->
+        <section id="result-slide" class="slide">
+            <div class="background-overlay"></div>
+            <nav class="top-nav">
+                <div class="user-info">
+                    <span id="display-user" class="user-name">Hai MOCHAMAD DIN PANULUH</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" id="logout-btn">Logout</a>
+                </div>
+            </nav>
+
+            <div class="content">
+                <div class="result-container">
+                    <div class="app-header">
+                        <p>Aplikasi Kelulusan SMAN 2 MOJOKERTO 2026</p>
+                    </div>
+
+                    <div class="result-card">
+                        <h2 class="student-name" id="student-name-display">MOCHAMAD DIN PANULUH</h2>
+                        
+                        <div class="status-badge">
+                            <div class="badge-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                            </div>
+                            <h3 class="status-text">Maaf, Anda Tidak Lulus</h3>
+                        </div>
+
+                        <div class="message-box">
+                            <p>Bagi yg tidak lulus, tetap semangat! Teruslah belajar dan jangan menyerah. Kesuksesan menanti di depan.</p>
+                            <p class="secondary-msg">Mohon maaf coba lagi</p>
+                        </div>
+
+                        <div class="visitor-counter">
+                            <p>Anda pengunjung ke :</p>
+                            <div class="counter-box">
+                                <span class="counter-label">Visitor Counter</span>
+                                <span class="counter-value">3413</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
