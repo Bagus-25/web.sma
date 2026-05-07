@@ -1,0 +1,22 @@
+# Website Kelulusan SMAN 2 MOJOKERTO
+
+Tugas ini telah selesai dengan detail sebagai berikut:
+
+## Fitur Utama
+- **Slide 1 (Login)**: Memerlukan Username `1234` dan Password `1234`.
+- **Slide 2 (Hasil)**: Menampilkan status kelulusan dengan pesan "Maaf, Anda Tidak Lulus" dan "Mohon maaf coba lagi".
+- **Desain Premium**: Menggunakan background gradient dinamis, efek glassmorphism, dan font modern yang mirip dengan contoh gambar.
+- **Responsif**: Tampilan menyesuaikan dengan layar HP maupun Desktop.
+
+## Struktur File
+- [index.html](file:///C:/Users/ASUS%20Vivobook/.gemini/antigravity/brain/8482340f-d995-429c-9c0c-99264e3f1632/index.html): Struktur utama website.
+- [style.css](file:///C:/Users/ASUS%20Vivobook/.gemini/antigravity/brain/8482340f-d995-429c-9c0c-99264e3f1632/style.css): Styling dan animasi.
+- [script.js](file:///C:/Users/ASUS%20Vivobook/.gemini/antigravity/brain/8482340f-d995-429c-9c0c-99264e3f1632/script.js): Logika login dan perpindahan slide.
+- [sman2_mojokerto_logo_1778130553024.png](file:///C:/Users/ASUS%20Vivobook/.gemini/antigravity/brain/8482340f-d995-429c-9c0c-99264e3f1632/sman2_mojokerto_logo_1778130553024.png): Logo sekolah yang dihasilkan oleh AI.
+
+## Cara Menggunakan
+1. Buka file `index.html` di browser Anda.
+2. Masukkan Username: `1234` dan Password: `1234`.
+3. Klik tombol "Masuk" untuk melihat slide kedua.
+
+![Preview Logo](file:///C:/Users/ASUS%20Vivobook/.gemini/antigravity/brain/8482340f-d995-429c-9c0c-99264e3f1632/sman2_mojokerto_logo_1778130553024.png)
